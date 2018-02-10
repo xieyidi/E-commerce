@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+dt{
+	font-size:13px;
+}
+dd{
+	margin-left:20px;
+	font-size:13px;
+	cursor:pointer;
+}
+.cs_head{
+	display:block;
+	width:100%;
+	height:44px;
+	margin-top:54px;
+	padding:12px 50px;
+	background:rgba(234,234,234,.4);
+	line-height:22px;
+	font-size:15px;
+}
+.type dt,dd{
+	float:left;
+	height:22px;
+	width:60px;
+}
+.num dt,dd{
+	float:left;
+	height:22px;
+	width:60px;
+}
+.fliter{
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+	vertical-align:center;
+}
+/*被选中的筛选条件添加类*/
+.acti{
+	/*background-color:#FF4001;*/
+	color:#ff4001;
+	border:none;
+}
+.cs_name{
+	display:block;
+	width:12%;
+	height:30px;
+	font-size:18px;
+	line-height:30px;
+	background:#cd96cd;
+}
+.cs_ul{
+	display:block;
+	width:94%;
+	height:auto;
+	margin-left:4%;
+	background:#fff;
+}

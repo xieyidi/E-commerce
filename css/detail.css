@@ -1,0 +1,246 @@
+*{
+	margin:0;
+	padding:0;
+}
+.fl{
+	float:left !important;
+}
+.fr{
+	float:right !important;
+}
+.red{
+	color:#ff4001;
+}
+.cb:after{
+	content:'';
+	display:block;
+	visibility:hidden;
+	width:0;
+	clear:both;
+	zoom:1;
+}
+.container{
+	display:block;
+	width:100%;
+	height:auto;
+	margin-top:60px;
+}
+.picwrap img{
+	display:block;
+	width:96%;
+	height:auto;
+	margin:5px auto;
+}
+.chos{
+	display:block;
+	width:1160px;
+	height:auto;
+	margin:0 auto;
+	background:#fff;
+}
+.cleft{
+	display:block;
+	width:551px;
+	height:105px;
+	position:relative;
+	border-bottom:1px solid #cdb38b;
+	
+}
+.cake_name{
+	font-weight:normal;
+	width:420px;
+	height:44px;
+	font-size:18px;
+	text-align:left;
+	float:left;
+}
+.cake_price{
+	font-weight:normal;
+	width:131px;
+	height:48px;
+	font-size:24px;
+	text-align:right;
+	float:right;
+}
+.atten{
+	position:relative;
+	padding-left:32px;
+	width:100%;
+	height:32px;
+	line-height:32px;
+	margin-top:20px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+.atten:before{
+	content:'';
+	zoom:1;
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:32px;
+	height:32px;
+	background:url('../img/voice.png') center no-repeat;
+	background-size:70% auto;
+}
+.cleft:after{
+	position:absolute;
+	display:block;
+	width:540px;
+	height:1px;
+	bottom:0;
+	left:5px;
+	background:#666;
+}
+.cright{
+	display:block;
+	width:551px;
+	height:auto;
+	margin-left:0px;
+}
+.cright p{
+	font-size:12px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.w_rel p{
+	display:block;
+	/*
+	border:1px solid red;
+	color:red;*/
+}
+.nw_pipo{
+	display:block;
+	float:left;
+	width:25%;
+	height:60px;
+	font-size:12px;
+	box-sizing:border-box;
+	text-align:center;
+	line-height:60px;
+}
+
+.neg{
+	border-bottom:1px solid #ff4001;
+	background:#f9f9f9;
+}
+.active{
+	border-bottom:2px double #ff4001;
+	/*如果1px不能呈现双实线效果*/
+	border-top:1px solid #ff4001;
+	border-left:1px solid #ff4001;
+	border-right:1px solid #ff4001;
+}
+.rel{
+	position:relative;
+}
+.reli{
+	position:relative;
+	text-align:left;
+	text-indent:32px;
+}
+.rel p:nth-child(1):before{
+	content:'';
+	position:absolute;
+	top:20px;
+	left:10px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('../img/dao.png') center no-repeat;
+	background-size:20px 20px;
+}
+.rel p:nth-child(2):before{
+	content:'';
+	position:absolute;
+	top:20px;
+	left:10px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('../img/dan.png') center no-repeat;
+	background-size:20px 20px;
+}
+.rel p:nth-child(3):before{
+	content:'';
+	position:absolute;
+	top:20px;
+	left:10px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('../img/zho.png') center no-repeat;
+	background-size:20px 20px;
+}
+.candy{
+	position:absolute;
+	top:20px;
+	left:55px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('../img/swe.png') center no-repeat;
+	background-size:80% 80%;
+}
+.w_candy{
+	position:absolute;
+	top:-1px;
+	left:55px;
+	display:block;
+	width:20px;
+	height:20px;
+	background:url('../img/swe.png') center no-repeat;
+	background-size:80% 80%;
+}
+.did{
+	display:block;
+	width:540px;
+	height:1px;
+	bottom:0;
+	left:5px;
+	background:#cdb38b;
+	z-Index:10;
+}
+.btns{
+	display:block;
+	width:100%;
+	height:auto;
+	padding-top:6px;
+}
+.add{
+	display:block;
+	width:260px;
+	height:45px;
+	line-height:45px;
+	text-align: center;
+	font-size:18px;
+	background:#fff;
+	border:1px solid #ff4001;
+	color:#ff4001;
+	float:left;
+}
+.buy{
+	display:block;
+	width:260px;
+	height:45px;
+	line-height:45px;
+	text-align: center;
+	font-size:18px;
+	background:#ff4001;
+	border:none;
+	color:#fff;
+	float:right;
+}
+.imgs{
+	display:block;
+	width:100%;
+	height:auto;
+	background:#f9f9f9;
+}
+.sp1,.sp2{
+	width:300px;
+	line-height:30px;
+	text-align:center;
+	padding:240px 100px 100px 100px;
+}

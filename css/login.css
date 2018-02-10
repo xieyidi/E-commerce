@@ -1,0 +1,249 @@
+@charset "utf-8";
+body,html{
+	overflow-x:hidden;
+}
+h2,h3{
+	font-weight:normal;
+}
+input,button{
+	outline:none;
+}
+/* 去掉点击时候输入框、按钮的蓝色边框
+   outline-style/color/width
+*/
+.bg{
+	display:block;
+	width:auto;
+	height:100%;
+	position:relative;
+	margin:54px auto;
+}
+.bg img{
+	display:block;
+	width:auto;
+	height:100%;
+	margin-left:-390px;
+}
+.fwrap{
+	position:absolute;
+	display:block;
+	width:250px;
+	height:390px;
+	background:rgba(255,255,255,0.8);
+	top:104px;
+	left:800px;
+	z-Index:10;
+	padding:20px 60px;
+}
+.fwrap h2{
+	font-size:16px;
+	margin-top:20px;
+	margin-bottom:30px;
+	position:relative;
+}
+.fwrap h2:after{
+	content:'';
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0;
+}
+.fwrap h2:before{
+	content:'';
+	z-Index:2;
+	display:block;
+	position:absolute;
+	width:1px;
+	height:18px;
+	left:50%;
+	top:50%;
+	margin-top:-9px;
+	background:#777;
+}
+.fwrap h2 a{
+	display:block;
+	width:50%;
+	line-height:2;
+}
+.aname{
+	text-align:left;
+	float:left;
+}
+.aphone{
+	text-align:right;
+	float:right;
+}
+
+input{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid #ccc;
+	padding-left:30px;
+}
+.np1 input,.np2 input,.pp1 input{
+	display:block;
+	width:250px;
+	height:30px;
+}
+.fwrap span{
+	display:block;
+	height:24px;
+	line-height:24px;
+	color:#ff0000;
+	width:auto;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:30px;
+	margin-bottom:6px;
+}
+.inp:before{
+	content:' ';
+	background-size:75% 75%;
+	display:block;
+	position:absolute;
+	width:24px;
+	height:24px;
+	z-Index:2;
+}
+.np1:before{
+    background:url(../img/name.png) no-repeat center;
+    background-size:75% 75%;
+}
+.np2:before{
+	background:url(../img/star.png) no-repeat top center;
+	background-size:75% 75%;
+}
+.pp1:before{
+	background:url(../img/phone.png) no-repeat center;
+	background-size:75% 75%;
+}
+.pp2:before{
+	background:url(../img/yan.png) no-repeat top center;
+	background-size:75% 75%;
+}
+.pp3:before{
+	background:url(../img/mes.png) no-repeat center;
+	background-size:75% 75%;
+}
+.fwrap p{
+	position:relative;
+}
+.divp input{
+	height:30px;
+}
+.pp2 input,.pp3 input{
+	width:160px;
+}
+.pp2 input{
+	position:relative;
+}
+
+.cap{
+	display:inline-block;
+	width:80px;
+	height:30px;
+	position:absolute;
+	top:162px;
+	right:62px;
+	
+}
+
+
+.cap img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.np2 input{
+	padding-bottom:5px;
+}
+.pp3 button{
+	display:block;
+	width:80px;
+	height:30px;
+	position:absolute;
+	float:right;
+	top:0px;
+	right:0px;
+	background:#ff4001;
+	color:#fff;
+	border:none;
+}
+.logetr{
+	background:#ff4001;
+	color:#fff;
+	display:block;
+	width:100%;
+	height:30px;
+	border:none;
+	margin-bottom:5px;
+}
+.logmor span{
+	height:12px;
+	line-height:16px;
+	margin:0;
+}
+.logmor a{
+	font-size:12px;
+}
+
+.logmor:after{
+	content:'';
+	clear:both;
+	display:block;
+	height:30px;
+}
+.logregtxt,.logreg{
+	float:right;
+}
+.otha{
+	position:relative;
+	display:block;
+	width:100%;
+	height:40px;
+}
+.logoth{
+	position:relative;
+}
+.logoth:before{
+	position:absolute;
+	display:block;
+	width:75px;
+	height:1px;
+	content:'';
+	background:#bbb;
+	top:0;
+	left:0;
+}
+.otha:before{
+	position:absolute;
+	display:block;
+	width:75px;
+	height:1px;
+	content:'';
+	background:#bbb;
+	top:-24;
+	right:0;
+}
+.logoth:after{
+	position:absolute;
+	display:block;
+	width:100px;
+	font-size:13px;
+	height:auto;
+	content:'其他登录方式';
+	text-align:center;
+    z-index: 1;
+	top:-10px;
+	left:75px;
+}
+.otha img{
+	display:block;
+	width:38px;
+	height:38px;
+	margin:24px auto;
+}
+.hid{
+	display:none;
+}
